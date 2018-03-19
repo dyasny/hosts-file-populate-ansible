@@ -33,7 +33,8 @@ IP  HOSTNAME  HOSTNAME.DOMAIN.TLD
 So that all the nodes can interact without using DNS
 
 ## Usage:
-ansible-playbook -i INVENTORY hosts.yml
+`ansible-playbook -i INVENTORY hosts.yml`
 
 To specify the domain either edit the variable in vars or override it in the command line:
-ansible-playbook -i INVENTORY -e domain="mydomain.com" hosts.yml
+
+`ansible-playbook -i INVENTORY -e domain="mydomain.com" hosts.yml`
